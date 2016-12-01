@@ -1,0 +1,250 @@
+body{
+    background-color: 	#222222;
+    font-family: Trebuchet MS;
+}
+
+#topmenu{
+    margin-top: 60px;
+
+    padding: 0px;
+
+}
+
+#quote{
+
+    color: #228B22;
+    text-align: justify;
+    font-size: 16px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+  
+    padding: 20px;
+    padding-top: 4%;
+    position: relative;
+    top: 50%;
+
+}
+
+#companylogo{   
+    padding-top: 20px;
+
+
+
+}
+
+#maincontent{
+    background-color: transparent;
+    margin-top: 0px;
+}
+
+#maincontent1{   
+    background-color: whitesmoke; 
+    margin-top: 10px;
+}
+
+.tiles{
+    background-color: transparent;
+    color: black;
+    border: 0px solid #000; 
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.tilesLg{
+    background-color: transparent;
+    color: black;
+    border: 0px solid #000; 
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.contactIcon{
+    background-color: transparent;
+    color: black;
+    border: 0px solid #000; 
+    padding: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+cIcon{
+    font-size: 40px;
+}
+
+.col1{
+    margin: 5px;
+}
+
+#staticfooter{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    background-color: transparent; 
+}
+#sf_paragraf{
+    text-align: center;
+    color: #228B22;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    background-color:	whitesmoke; 
+    padding: 5px;
+}
+
+#topParagraf{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: Trebuchet MS;    
+    background-color: #55be55;
+    padding: 5px;
+}
+
+#floatfooter{
+    height: 50px; 
+    padding: 0px; 
+    text-align: center; 
+    background-color: rgba(245, 245, 245, 0.2); 
+    border: 0px solid red; 
+    position: absolute; 
+    bottom: 0px; 
+    left: 0%; 
+    right: 0%;
+}
+
+.floatfooterphone{
+    display: inline; 
+    font-weight: bold; 
+    font-variant: small-caps; 
+    color: white; 
+    font-family: Trebuchet MS; 
+    font-size: 22px;
+}
+
+.floatfooterphone:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.navbar-default .navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: black;
+
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    background-color: #44ad44;
+    color: black;
+}
+
+.linku{
+    display: block; 
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(0, 147, 221, 1.0);
+    margin-top: 10px;
+    color: white;
+    font-variant: small-caps;
+    padding: 10px;
+
+}
+
+.linku:hover{
+    background-color: black;
+    color: white;
+}
+
+.linkuLg{
+    display: block; 
+    padding: 5px;
+    text-align: center;
+    background-color: #55be55;
+    margin-top: 0px;
+    color: white;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.linkuLg:hover{
+    background-color: #44ad44;
+    color: black;
+}
+
+.tab1{
+    margin-top: 5px;
+    font-weight:  bold;
+}
+
+span{
+    font-weight: bold;
+    background-color: #cbcbcb;
+}
+
+p{
+    text-indent: 5%;
+    padding: 5px;
+}
+
+.qual{
+    margin-top: 10px;
+}
+
+
+.fontelloiTop{
+    color: white;
+}
+
+.fontelloiTop:hover{
+    color: black;
+}
+
+.fontelloiBot{
+    color: white;
+}
+
+.fontelloiBot:hover{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+
+.img1:hover{
+    opacity: 0.85;
+    cursor: pointer;
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        font-size: 10px;
+    }
+}
